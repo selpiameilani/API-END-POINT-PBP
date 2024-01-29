@@ -1,6 +1,6 @@
 const { response } = require("express");
 
-const mahasiswaNiMToDelete = '19501021';
+const mahasiswaNiMToDelete = '1102024';
 
 fetch(`http://localhost:3000/dosen/${mahasiswaNiMToDelete}`, {
     method: 'DELETE'
